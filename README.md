@@ -1,0 +1,1 @@
+This is the project I'll be making for the Rock, Paper & Scissors asignment for The Odin Project. I hope it will go well enough.
