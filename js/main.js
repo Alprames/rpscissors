@@ -6,7 +6,7 @@ function randomChoice() {
 }
 
 function play(playerSelection, computerSelection = randomChoice()) {
-    playerSelection = prompt('Select your stuff');
+    playerSelection = prompt('Select your stuff').toLowerCase();
     let messages = {
         win: `Nice, you've won and that's because ${playerSelection} beats ${computerSelection}, congrats`,
         tie: `Well, you've both chosen ${playerSelection} so it seems that there's a tie between you two, maybe try again`,
